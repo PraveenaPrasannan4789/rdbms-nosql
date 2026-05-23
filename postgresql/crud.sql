@@ -16,3 +16,4 @@ UPDATE users SET age = 26 WHERE name = 'John';
 
 -- Delete
 DELETE FROM users WHERE name = 'John';
+Delete from purchases where id =1;
