@@ -1,6 +1,12 @@
 -- Create
 INSERT INTO users (name, age, email) VALUES ('John', 25, 'john@gmail.com');
 
+INSERT INTO users (name, age, email) 
+VALUES 
+  ('John', 25, 'john@gmail.com'),
+  ('Alice', 30, 'alice@gmail.com'),
+  ('Bob', 22, 'bob@gmail.com');
+
 -- Read
 SELECT * FROM users;
 SELECT name, age FROM users WHERE age > 20;
