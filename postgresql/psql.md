@@ -28,3 +28,11 @@ psql -h localhost -p 5432 -U postgres -d mydatabase
 \q	Exit psql
 \?	Show psql commands
 \h	Show SQL help
+
+## After connecting, you'll see something like:
+
+mydatabase=#
+
+Now you can type:
+
+SELECT * FROM users;
